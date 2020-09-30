@@ -1,0 +1,98 @@
+<!Doctype html>
+<html>
+<head>
+<title>
+Prisar Hospital
+</title>
+<link rel ="stylesheet" type ="text/css" href = "style.css" >
+<link rel ="stylesheet" type ="text/css" href = "slider.css" >
+<link rel ="stylesheet" type ="text/css" href = "style3.css" >
+<script>
+function show2()
+{
+var email;
+alert("Thank You For Subscribing Newsletter")
+}
+function show1()
+{
+var n1,n2,t;
+n1=Number(document.getElementById("ip13").value);
+n2= 3000;
+t=n1*n2;
+document.getElementById("ip19").value=t;
+}
+</script>
+</head>
+<body>
+<div class ="wrapper">
+<div align="left" class ="head">
+<div class ="img1">
+<ul>
+<li><img src = "download.png" width ="20" height ="15"> 97 S.N. Street, Indore</li>
+<li><img src = "whitephone.png" width ="15" height="15"> (+91)982649225</li>
+<li><img src = "message.png" width =''20" height="20">  Pritish.sar@prisar.com</li>
+</ul>
+</div>
+</div>
+<div class ="header">
+<div class = "imgset">
+<img src = "logo2.png" width = "100" height = "40">
+</div>
+
+<header>
+<nav>
+<ul>
+<a  href = "index.html" ><li class="menus"><b>Home </b></li></a>
+<a   href ="about.html"><li class="menus"><b> About </b></li></a>
+<a  href ="appointment.html" ><li class="menus"><b> Appointment </b></li></a>
+<a  href ="billing.html"><li class="menus"><b> Billing </b></li></a>
+<a  href = "contact.html"><li class="menus"><b> Contact </b></li></a>
+</ul>
+</nav>
+</div>
+<div class ="division">
+</div>
+</header>
+</div>
+<div class="bbg">
+<img id="ib1" src="bg.jpg">
+<div class="opacity">
+<h13>Billing</h13><br>
+<form method="POST" action="insert2.php">
+<ul>
+<li><input id="ip8" type ="text" name="name" placeholder="Patient Name"></li>
+<li><input id="ip9" type ="text" name="id" placeholder="Patient ID"></li>
+<li><input id="ip10" type ="text" name="bed" placeholder="Bed No."></li>
+<li><input id="ip11" type ="text" name="email" placeholder="E-mail."></li>
+<li><input id="ip12" type ="text" name="contact" placeholder="Phone No."></li>
+<p id="pa1">Gender</p>
+<input id ="r1" type="radio" name="gender" value="male"><span>Male</span>
+<input id ="r2" type="radio" name="gender" value="female"><span>Female</span>
+<li><input id="ip6" type ="text" name="date" placeholder="DD/MM/YYYY"></li>
+<select id ="s2"size="" name="field">
+<option value="">*Specialization</option>
+  <option value="cardiology">Cardiology</option>
+  <option value="heart surgery">Heart Surgery</option>
+  <option value="skin care">Skin Care</option>
+  <option value="body checkup">Body Checkup</option>
+ <option value="numerology">Numerology</option>
+<option value="diagnosis">Diagnosis</option>
+ <option value="others">Others</option>
+</select><br>
+<select id ="s3"size="" name="city">
+ <option value="">*City</option>
+  <option value="Indore">Indore</option>
+  <option value="Mumbai">Mumbai</option>
+  <option value="New Delhi">New Delhi</option>
+  <option value="Chennai">Chennai</option>
+ <option value="Bangalore">Bangalore</option>
+  <option value="Pune">Pune</option>
+  <option value="Chandigarh">Chandigarh</option>
+  <option value="Kolkata">Kolkata</option>
+</select><br>
+<input id="ip13" type ="num" name="days" placeholder="Days"><br>
+<input id="ip19" name="total" placeholder="Total">
+<button type="submit" id="b03" >Proceed</button>
+</ul>
+</form>
+</div>
